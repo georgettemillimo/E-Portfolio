@@ -18,7 +18,7 @@
 
         .card-body {
             font-family: 'Roboto', sans-serif;
-            font-size: 1.1rem;
+            font-size: 1rem;
             color: #333;
         }
 
@@ -29,22 +29,22 @@
         }
 
      .footer {
-            background-color: #343a40; /* Dark background */
-            color: #fff; /* White text */
-            padding: 20px 0;
+            background-color: #343a40;
+            color: #fff;
+            padding: 10px 0;
         }
 
         .footer a {
-            color: #fff; /* White text for links */
-            text-decoration: none; /* Remove underline */
+            color: #fff;
+            text-decoration: none;
         }
 
         .footer a:hover {
-            color: #007bff; /* Change color on hover */
+            color: #007bff;
         }
 
         .footer .social-icons {
-            font-size: 1.5rem; /* Size of social media icons */
+            font-size: 1.5rem;
         }
 
         .container {
