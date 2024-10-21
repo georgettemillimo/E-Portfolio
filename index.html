@@ -3,20 +3,27 @@
 <head>
     <!--  meta-data of the page : more: title -->
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Portfolio</title>
     <!-- Bootstrap Links to the files-->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/style.css"></link>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
 
 
-            <!-----------------Navbar----------------->
+<!-----------------Navbar----------------->
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img src="assets/Logo.png" width="40dp" height="40dp"></a>
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/Logo.png" width="40dp" height="40dp">
+                    </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                       <ul class="navbar-nav">
@@ -24,16 +31,16 @@
                           <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">About Me</a>
+                          <a class="nav-link" href="#skills-hobbies">About Me</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Contacts</a>
+                          <a class="nav-link" href="public/contact.html">Contacts</a>
                         </li>
                       </ul>
                     </div>
                 </div>
             </nav>
-            <!-----------------End of Navbar----------------->
+<!-----------------End of Navbar----------------->
 
 <!-----------------The Container holding the content----------------->
 
@@ -54,7 +61,77 @@
             </div>
         </div>
 
+ <!-----------------Skills Section----------------->
+<div class="container">
+    <div class="row">
+        <!-- Column A: Skills -->
+        <div class="col-md-6 mb-4"  id="skills-hobbies">
+            <div class="card">
+                <div class="card-header skills-header text-center bg-danger">
+                    My Skills
+                </div>
+                <div class="card-body p-4" >
+                    <ol >
+                        <li>Web Development</li>
+                        <li>Git and Github</li>
+                        <li>Mobile App Development</li>
+                        <li>Database Management</li>
+                        <li>System Administration</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
 
+        <!-- Column B: Hobbies -->
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-header hobbies-header text-center bg-warning">
+                    My Hobbies
+                </div>
+                <div class="card-body p-4">
+                    <ol>
+                        <li>Coding</li>
+                        <li>Reading Tech Blogs</li>
+                        <li>Gaming</li>
+                        <li>Traveling</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+              <h6>Find me on social Media</h6>
+            </div>
+
+            <div class="col-auto mb-2">
+                <a href="https://www.facebook.com/" target="_blank" class="social-icons me-3">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </div>
+            <div class="col-auto">
+                <a href="https://twitter.com/DevMillimo" target="_blank" class="social-icons me-3">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+            <div class="col-auto">
+                <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="social-icons me-3">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+            <div class="col-auto">
+                <a href="https://github.com/georgettemillimo" target="_blank" class="social-icons">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
 
   <!-----------------END of The Container holding the content----------------->
 
